@@ -10,7 +10,7 @@ function App() {
   return (
     <section>
       <div className="container mx-auto lg:w-[80%]  lg:pt-[40px] ">
-        <div className="lg:flex  lg:flex-row flex flex-col justify-center mx-auto lg:w-[45%]  w-[90%] p-3  shadow-lg border rounded-md " >
+        <div className="lg:flex  lg:flex-row flex flex-col justify-center mx-auto lg:w-[55%]  w-[90%] lg:p-3 p-3  shadow-lg border rounded-md " >
           <form className="pt-[20px]">
             {/* section-one */}
             <div className="lg:flex lg:flex-row flex flex-col   gap-3 lg:gap-[90px]">
