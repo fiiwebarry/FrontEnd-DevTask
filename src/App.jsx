@@ -1,7 +1,9 @@
-import { CgAsterisk } from "react-icons/cg";
-import { IoMdClose } from "react-icons/io";
-import { MdKeyboardArrowDown } from "react-icons/md";
-import { IoCloseCircleSharp } from "react-icons/io5";
+
+import star from "/src/assets/Icons/star.png"
+import exit from "/src/assets/Icons/close.png"
+import arrowUp from "/src/assets/Icons/Chevron-Up.png"
+import arrowDown from "/src/assets/Icons/Chevron-Down.png"
+import close from "/src/assets/Icons/close-btn.png"
 import "./App.css";
 
 function App() {
@@ -18,7 +20,7 @@ function App() {
               <div>
                 <div className="label-tab" >
                   <p className="label-tab-text">Select values</p>
-                  <span className="icon-tab"><CgAsterisk /></span>
+                  <img className="icon-tab" src={star} alt="star" />
                 </div>
 
                 <select className="select-tab">
@@ -29,7 +31,7 @@ function App() {
               <div>
                 <div className="label-tab" >
                   <p className="label-tab-text">Select values</p>
-                  <span className="icon-tab"><CgAsterisk /></span>
+                  <img className="icon-tab" src={star} alt="star" />
                 </div>
                 <select className="select-tab">
                   <option className="select-tab-placeholder">Placeholder</option>
@@ -45,7 +47,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
                   <select className="select-tab">
                     <option className="select-tab-placeholder">Placeholder</option>
@@ -55,7 +57,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
 
                   <div className="select-color-tab">
@@ -63,52 +65,54 @@ function App() {
                       <div className="select-color">
                         <button className="btn1">
                           <p className="select-color-text">Orange</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
+
 
                         </button>
                         <button className="btn2">
                           <p className="select-color-text">Green</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn3">
                           <p className="select-color-text">Red</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
                       <div className="btn-icon">
-                        <MdKeyboardArrowDown />
+                        <img src={arrowDown} alt="arrow" />
+
                       </div>
 
                     </div>
                     <div className="color-tab-flex2">
-                      <div className="select-color2">
+                      <div className="select-color3">
                         <button className="btn4">
                           <p className="select-color-text">Yellow</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn5">
                           <p className="select-color-text">Blue</p>
-                          <span className="select-color-ixon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn6">
                           <p className="select-color-text">Purple</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
 
 
                     </div>
-                    <div className="color-tab-flex3">
+                    <div className="color-tab-flex2">
                       <div className="select-color2">
                         <button className="btn7">
                           <p className="select-color-text">Pink</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn8">
                           <p className="select-color-text">Grey</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
 
                       </div>
@@ -132,7 +136,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
                   <select className="select-tab">
                     <option className="select-tab-placeholder">Placeholder</option>
@@ -142,7 +146,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
 
                   <div className="select-color-tab">
@@ -150,21 +154,21 @@ function App() {
                       <div className="select-color">
                         <button className="btn1">
                           <p className="select-color-text">Orange</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn2">
                           <p className="select-color-text">Green</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn3">
                           <p className="select-color-text">Red</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
                       <div className="btn-icon2">
-                        <span className="btn-icon3"><IoCloseCircleSharp /></span>
-                        <span className="btn-icon4"><MdKeyboardArrowDown /></span>
+                        <img className="close-btn" src={close} alt="close" />
+                        <img src={arrowUp} alt="arrow" />
 
                       </div>
 
@@ -173,16 +177,16 @@ function App() {
                       <div className="select-color2">
                         <button className="btn4">
                           <p className="select-color-text">Yellow</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn5">
                           <p className="select-color-text">Blue</p>
-                          <span className="select-color-ixon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn6">
                           <p className="select-color-text">Purple</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
 
@@ -192,12 +196,12 @@ function App() {
                       <div className="select-color2">
                         <button className="btn7">
                           <p className="select-color-text">Pink</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn8">
                           <p className="select-color-text">Grey</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
 
                       </div>
@@ -222,7 +226,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
                   <select className="select-tab">
                     <option className="select-tab-placeholder">Placeholder</option>
@@ -232,7 +236,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
 
                   <div className="select-color-tab">
@@ -240,21 +244,21 @@ function App() {
                       <div className="select-color">
                         <button className="btn1">
                           <p className="select-color-text">Orange</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn2">
                           <p className="select-color-text">Green</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn3">
                           <p className="select-color-text">Red</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
                       <div className="btn-icon2">
-                        <span className="btn-icon3"><IoCloseCircleSharp /></span>
-                        <span className="btn-icon4"><MdKeyboardArrowDown /></span>
+                        <img className="close-btn" src={close} alt="close" />
+                        <img src={arrowDown} alt="arrow" />
 
                       </div>
 
@@ -263,16 +267,16 @@ function App() {
                       <div className="select-color2">
                         <button className="btn4">
                           <p className="select-color-text">Yellow</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn5">
                           <p className="select-color-text">Blue</p>
-                          <span className="select-color-ixon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn6">
                           <p className="select-color-text">Purple</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
 
@@ -282,12 +286,12 @@ function App() {
                       <div className="select-color2">
                         <button className="btn7">
                           <p className="select-color-text">Pink</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn8">
                           <p className="select-color-text">Grey</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
 
                       </div>
@@ -311,7 +315,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
                   <select className="select-tab">
                     <option className="select-tab-placeholder">Placeholder</option>
@@ -321,7 +325,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
 
                   <div className="select-color-tab">
@@ -329,21 +333,21 @@ function App() {
                       <div className="select-color">
                         <button className="btn1">
                           <p className="select-color-text">Orange</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn2">
                           <p className="select-color-text">Green</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn3">
                           <p className="select-color-text">Red</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
                       <div className="btn-icon2">
-                        <span className="btn-icon3"><IoCloseCircleSharp /></span>
-                        <span className="btn-icon4"><MdKeyboardArrowDown /></span>
+                        <img className="close-btn" src={close} alt="close" />
+                        <img src={arrowDown} alt="arrow" />
 
                       </div>
 
@@ -352,16 +356,16 @@ function App() {
                       <div className="select-color2">
                         <button className="btn4">
                           <p className="select-color-text">Yellow</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn5">
                           <p className="select-color-text">Blue</p>
-                          <span className="select-color-ixon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn6">
                           <p className="select-color-text">Purple</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
 
@@ -371,12 +375,12 @@ function App() {
                       <div className="select-color2">
                         <button className="btn7">
                           <p className="select-color-text">Pink</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn8">
                           <p className="select-color-text">Grey</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
 
                       </div>
@@ -401,7 +405,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
                   <select disabled={isSelectDisabled} className="select-tab">
                     <option className="select-tab-placeholder">Placeholder</option>
@@ -411,7 +415,7 @@ function App() {
                 <div>
                   <div className="label-tab" >
                     <p className="label-tab-text">Select values</p>
-                    <span className="icon-tab"><CgAsterisk /></span>
+                    <img className="icon-tab" src={star} alt="star" />
                   </div>
 
                   <div className="select-color-tab">
@@ -419,21 +423,21 @@ function App() {
                       <div className="select-color">
                         <button className="btn9">
                           <p className="select-color-text">Orange</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn10">
                           <p className="select-color-text">Green</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn11">
                           <p className="select-color-text">Red</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
                       <div className="btn-icon2">
-                        <span className="btn-icon3"><IoCloseCircleSharp /></span>
-                        <span className="btn-icon4"><MdKeyboardArrowDown /></span>
+                        <img className="close-btn" src={close} alt="close" />
+                        <img src={arrowDown} alt="arrow" />
 
                       </div>
 
@@ -442,16 +446,16 @@ function App() {
                       <div className="select-color2">
                         <button className="btn12">
                           <p className="select-color-text">Yellow</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn13">
                           <p className="select-color-text">Blue</p>
-                          <span className="select-color-ixon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                         <button className="btn14">
                           <p className="select-color-text">Purple</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
                       </div>
 
@@ -461,12 +465,12 @@ function App() {
                       <div className="select-color2">
                         <button className="btn15">
                           <p className="select-color-text">Pink</p>
-                          <span className="select-color-icon" ><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
 
                         </button>
                         <button className="btn16">
                           <p className="select-color-text">Grey</p>
-                          <span className="select-color-icon"><IoMdClose /></span>
+                          <img className="select-color-icon" src={exit} alt="exit" />
                         </button>
 
                       </div>

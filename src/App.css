@@ -10,6 +10,13 @@
     margin:auto;
     padding-top: 40px;
 }
+.select-tab {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: -20px; /* Add some padding to the right for the custom arrow */
+    background: url('/src/assets/Icons/Chevron-Down.png') no-repeat center right; /* Set your custom arrow icon */
+  }
 .section-tab{
     display: flex;
     justify-content: center;
@@ -29,6 +36,7 @@
 }
 .label-tab{
     display: flex;
+    gap:2px;
     font-weight: 600;
 }
 .label-tab-text{
@@ -36,12 +44,14 @@
     color: #1F2937;
 }
 .icon-tab{
-    color: red;
+    width:8px;
+    height:8px;
+    margin-top: 1px;
 }
 .select-tab{
     width:240px;
     height:36px;
-    padding: 2px;
+    padding: 3px; 
     margin-top: 1px;
     border-radius: 8px;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
@@ -49,7 +59,7 @@
     
 }
 .select-tab-placeholder{
-    font-weight: 400;
+    font-weight: 400; */
     color: #9ca3af !important;
     font-size: 14px;
 }
@@ -95,10 +105,16 @@ select:hover{
     display: flex;
     justify-content: space-between;
 }
+.select-color3{
+    display:flex;
+    gap: 4px;
+    margin-top: -5px;
+
+}
 .color-tab-flex2{
     display: flex;
     justify-content: space-between;
-    margin-top: -2px;
+    margin-top: 4px;
 
 }
 .color-tab-flex3{
@@ -114,14 +130,15 @@ select:hover{
 .select-color2{
     display:flex;
     gap: 4px;
+    margin-top: 2px;
 }
 .select-color-text{
     font-size: 13px;
 
 }
 .select-color-icon{
-    margin-top: 1px;
-    font-size: 13px;
+    margin-top: 3px;
+    
 }
 .btn-icon{
     font-size: 22px;
@@ -129,9 +146,15 @@ select:hover{
 }
 .btn-icon2{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     margin-left: 11px;
     
+}
+.close-btn{
+    width:14px;
+    height:14px;
+    border-radius: 50%;
+    margin-top: 2px;
 }
 .btn-icon3{
     color:#9CA3AF;
@@ -143,7 +166,7 @@ select:hover{
 /* active buttons */
 .btn1{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:63px;
     height:20px;
     padding:1px;
@@ -154,7 +177,7 @@ select:hover{
 }
 .btn2{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:56px;
     height:20px;
     padding: 1px;
@@ -166,7 +189,7 @@ select:hover{
 
 .btn3{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:45px;
     height:20px;
     padding: 1px;
@@ -178,7 +201,7 @@ select:hover{
 
 .btn4{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:60px;
     height:20px;
     padding: 1px;
@@ -191,7 +214,7 @@ select:hover{
 
 .btn5{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:48px;
     height:20px;
     padding: 1px;
@@ -205,7 +228,7 @@ select:hover{
 
 .btn6{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:59px;
     height:20px;
     padding: 1px;
@@ -217,7 +240,7 @@ select:hover{
 
 .btn7{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:48px;
     height:20px;
     padding: 1px;
@@ -229,7 +252,7 @@ select:hover{
 
 .btn8{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:49px;
     height:20px;
     padding: 1px;
@@ -242,7 +265,7 @@ select:hover{
 /* inactive buttons */
 .btn9{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:63px;
     height:20px;
     padding:1px;
@@ -259,7 +282,7 @@ select:hover{
 }
 .btn10{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:56px;
     height:20px;
     padding: 1px;
@@ -277,7 +300,7 @@ select:hover{
 
 .btn11{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:45px;
     height:20px;
     padding: 1px;
@@ -295,7 +318,7 @@ select:hover{
 
 .btn12{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:60px;
     height:20px;
     padding: 1px;
@@ -312,7 +335,7 @@ select:hover{
 
 .btn13{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:48px;
     height:20px;
     padding: 1px;
@@ -331,7 +354,7 @@ select:hover{
 
 .btn14{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:59px;
     height:20px;
     padding: 1px;
@@ -349,7 +372,7 @@ select:hover{
 
 .btn15{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:48px;
     height:20px;
     padding: 1px;
@@ -367,7 +390,7 @@ select:hover{
 
 .btn16{
     display: flex;
-    gap: 2px;
+    gap: 4px;
     width:49px;
     height:20px;
     padding: 1px;
